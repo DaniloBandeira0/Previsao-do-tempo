@@ -1,0 +1,46 @@
+
+.forecast-title {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.forecast-card {
+    background: rgba(1, 25, 39, 0.85);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    box-shadow: 0 2px 5px rgba(165, 50, 50, 0.2);
+}
+
+.forecast-day {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.forecast-temp {
+    font-size: 14px;
+    color: #ff0800;
+}
+
+.forecast-wind {
+    font-size: 14px;
+    color: #000000;
+}
+body {
+    background: linear-gradient(to bottom, #4B0082, #000080);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
