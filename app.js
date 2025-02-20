@@ -1,6 +1,7 @@
 function getWeather() {
     let city = document.getElementById("city").value;
     let url = `https://goweather.herokuapp.com/weather/${city}`;
+    
 
     fetch(url)
     .then(response => response.json())
